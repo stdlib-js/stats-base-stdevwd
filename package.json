@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/stats-base-stdevwd",
+  "version": "0.0.0",
+  "description": "Calculate the standard deviation of a strided array using Welford's algorithm.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-stdevwd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "standard deviation",
+    "variance",
+    "var",
+    "deviation",
+    "dispersion",
+    "spread",
+    "sample standard deviation",
+    "unbiased",
+    "stdev",
+    "std",
+    "welford",
+    "strided",
+    "strided array",
+    "typed",
+    "array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
