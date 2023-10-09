@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-stdevwd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calculate the standard deviation of a strided array using Welford's algorithm.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/stats-base-variancewd": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
