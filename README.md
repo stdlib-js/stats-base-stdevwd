@@ -112,6 +112,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 To use in Observable,
 
 ```javascript
+stdevwd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-stdevwd@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-stdevwd/tags). For example,
+
+```javascript
 stdevwd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-stdevwd@v0.2.0-umd/browser.js' )
 ```
 
@@ -124,7 +129,7 @@ var stdevwd = require( 'path/to/vendor/umd/stats-base-stdevwd/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-stdevwd@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-stdevwd@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -240,7 +245,7 @@ var v = stdevwd.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-stdevwd@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-stdevwd@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
