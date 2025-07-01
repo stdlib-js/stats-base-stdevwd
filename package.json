@@ -40,7 +40,8 @@
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/stats-strided-variancewd": "github:stdlib-js/stats-strided-variancewd#main",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
