@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/math-base-special-sqrt": "^0.2.2",
-    "@stdlib/stats-base-variancewd": "^0.2.2",
+    "@stdlib/stats-strided-variancewd": "github:stdlib-js/stats-strided-variancewd#main",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
   },
